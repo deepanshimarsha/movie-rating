@@ -33,6 +33,20 @@
     margin: auto;
     margin-top: 2rem;
 }
+.detail-main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 5rem;
+}
+.card-body{
+    text-align: left;
+}
+.action-btn-detail{
+    display: flex;
+    gap: 1rem;
+}
 
 @media (min-width: 200px) and (max-width: 749px) {
     .movie-list{
