@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
     row-gap: 2rem;
+    width: 85%;
+    margin: auto;
+    margin-top: 3rem;
     
 }
 
