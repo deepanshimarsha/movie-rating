@@ -1,0 +1,32 @@
+.header{
+    margin-top: 2rem;
+}
+.movie-list{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    
+}
+
+.movie-list .col a{
+    text-decoration: none;
+}
+.action-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.starred {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.watchlist{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
