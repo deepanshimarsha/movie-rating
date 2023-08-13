@@ -30,8 +30,16 @@
     
 }
 @media (min-width: 750px) and (max-width: 1260px) {
+    .navbar-links{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        text-align: left;
+        padding-top: 10px;
+    }
     .navbar{
         gap: 0rem;
         padding-left: 0rem;
     }
+    
 }

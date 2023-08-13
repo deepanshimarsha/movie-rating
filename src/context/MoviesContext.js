@@ -29,7 +29,6 @@ const MoviesContextProvider = ({ children }) => {
   };
 
   const [moviesState, moviesDispatch] = useReducer(moviesReducer, initialState);
-  console.log(moviesState);
 
   useEffect(() => {
     moviesDispatch({ type: "FILTER_MOVIES" });

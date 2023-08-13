@@ -30,3 +30,15 @@
     margin: auto;
     margin-top: 2rem;
 }
+
+@media (min-width: 200px) and (max-width: 749px) {
+    .movie-list{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1260px) {
+    .movie-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}

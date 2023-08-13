@@ -22,13 +22,11 @@ const moviesReducer = (state, action) => {
       let newFilteredMovies = state.movies.slice();
 
       if (state.filterByGenre.length) {
-        console.log("genre");
         newFilteredMovies = newFilteredMovies.filter(({ genre }) =>
           genre.includes(state.filterByGenre)
         );
       }
       if (state.filterByGenre === "all genre") {
-        console.log("genre");
         newFilteredMovies = state.movies.slice();
       }
       if (state.filterByYear === "1") {
@@ -83,7 +81,7 @@ const moviesReducer = (state, action) => {
           const castBool = cast
             .map((ele) => ele.toLowerCase())
             .includes(state.searchInput.toLowerCase());
-          console.log(titleBool, directorBool, castBool);
+
           return titleBool || directorBool || castBool;
         }
       );
